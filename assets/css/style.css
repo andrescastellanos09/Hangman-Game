@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(44, 42, 42);
+}
+#image-container {
+    width: 80%;
+    align-items: center;
+    padding: 10px;
+    margin: 10% auto;
+
+}
+#container {
+    width: 60%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: grey;
+    margin: 10% auto;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    color: rgb(139, 43, 19);
+    font-size: 25px;
+
+
+}
+#letters a{
+    color: rgb(139, 43, 19);
+    background-color: darkgray;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+
+
+}
+#letters a:hover{
+    color: blue;
+
+}
