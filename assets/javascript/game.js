@@ -31,7 +31,7 @@ Main.SetUnderline = function(){
 
 Main.UpdateLetter = function(letter){
     Main.Changes = 0;
-    for(i=0; i<Main.Word.Length; i++){
+    for(i=0; i<Main.Word.length; i++){
         Main.WordArray[i] = Main.Word.charAt(i);
         if(Main.Word.charAt(i) == letter){
             Main.WordUArray[i] = letter;
@@ -53,13 +53,13 @@ Main.UpdateLetter = function(letter){
 
     if(Main.Word1 == Main.Word2){
         alert("You Won! Loading A New Word");
-        Window.location.reload();
+        window.location.reload();
     }
 
     if(Main.Lives < 1){
         document.getElementById("WORD").innerHTML == Main.Word1;
         alert("You Have Run Out Of Lives, Please Try Again.");
-        Window.location.reload();
+        window.location.reload();
     }
 }
 
@@ -249,4 +249,3 @@ $(function() {
 });
 }
 );
-

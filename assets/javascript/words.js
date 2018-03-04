@@ -1,18 +1,18 @@
 var Words = [
-"Cercei",
-"Jon Snow",
-"Dragon",
-"Tyrion",
-"Daenerys",
-"Khal Drogo",
-"Army of the dead",
-"Wall",
-"King of the North",
-"Seven Kingdoms",
-"Starks",
-"Lannisters",
-"Sansa",
-"Aria",
-  "Wildlings" 
-];
+    "cercei",
+    "jon Snow",
+    "dragon",
+    "tyrion",
+    "daenerys",
+    "khal drogo",
+    "army of the dead",
+    "wall",
+    "king of the North",
+    "seven Kingdoms",
+    "starks",
+    "lannisters",
+    "sansa",
+    "aria",
+      "wildlings" 
+    ];
 
